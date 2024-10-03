@@ -7,7 +7,7 @@ import torchvision.transforms as transforms
 from dataloader_pupil import FacePupilDataset  # Import your dataset script
 
 # Load your dataset
-pupil_dir_tr = "./pupil_data/"  # Adjust as needed
+pupil_dir_tr = "../../../../../dataset/face/train_ch3_v7_version3/"  # Adjust as needed
 transform = transforms.Compose([
     transforms.Resize((400, 400)),
     transforms.ToTensor(),
